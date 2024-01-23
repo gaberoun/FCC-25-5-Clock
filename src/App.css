@@ -1,0 +1,43 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+span {
+  font-size: 1.3rem;
+}
+
+#timeSetter-container {
+  display: flex;
+  justify-content: center;
+  gap: 20%;
+}
+
+#session-container, #break-container {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+  margin-top: -0.5rem;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+#timer-container {
+  display: flex;
+  flex-direction: column;
+}
+
+#time-left {
+  font-size: 3rem;
+  margin-top: -1rem;
+}
+
+
+
+
